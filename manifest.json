@@ -1,0 +1,9 @@
+{
+  "name": "VitalsFam — Family Blood Sugar & BP Tracker",
+  "short_name": "VitalsFam",
+  "description": "Track blood sugar and blood pressure readings across family members with date filtering and trends.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f766e"
+}
