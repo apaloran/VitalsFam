@@ -38,23 +38,4 @@ No build step or package installation is required:
    ```
    Then open `http://localhost:8000`.
 
-## Publishing to GitHub & GitHub Pages
-
-1. Create a new repository on [GitHub](https://github.com/new) (for example, `family-health-tracker`).
-2. Inside the unzipped `family-health-tracker` folder, run:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: VitalsFam family blood sugar & BP tracker"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/family-health-tracker.git
-   git push -u origin main
-   ```
-3. To host it live for free on your phone and computer via **GitHub Pages**:
-   - Open your repository on GitHub → **Settings** → **Pages**.
-   - Under **Build and deployment**, set **Source** to `Deploy from a branch`, select `main` and `/ (root)`, then click **Save**.
-   - Your live app URL will appear at `https://<your-username>.github.io/family-health-tracker/`.
-
-## Disclaimer
-
-Reference ranges shown in the app are for informational tracking only and do not constitute medical advice. Always consult a healthcare professional for diagnosis or personalized targets.
+healthcare professional for diagnosis or personalized targets.
